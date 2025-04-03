@@ -135,7 +135,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    background-color: #ffffffbd;
+    background-color: white;
     color:#000000;
     border-style: none;
     margin: 0 auto;
@@ -153,7 +153,11 @@ body {
 
 .ShinyBtn:hover {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.212);
+    background-color: rgba(255, 255, 255, 0.568);
+}
+
+.ShinyBtn:focus {
+    background: linear-gradient(to right, #fd7201, #02ffc0);;
 }
 
 .verify {
