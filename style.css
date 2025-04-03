@@ -103,5 +103,7 @@ h1 {
     .name {
         font-size: 10px;
         letter-spacing: 0px;
+        margin: 0;
+        text-align: center;
     }
 }

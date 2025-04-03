@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    overflow: auto hidden;
+    overflow-y: auto;
 }
 
 
@@ -19,7 +19,7 @@ body {
     width: 90%;
     max-width: 1200px;
     margin-top: 10vh;
-    overflow: auto hidden;
+    overflow-y: auto hidden;
 }
 
 .pokemon-details {
